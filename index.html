@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading">Calculator</div>
+    <div class="main-container">
+        <div class="display-container"><div class="answer" id="answer"><b>0</b></div></div>
+        <div class="button-row1">
+            <button class="row1" id="clear" type="button" onclick="onClear()"><b>C</b></button>
+            <button class="row1" id="percent" type="button" onclick="onModulo()"><b>%</b></button>
+            <button class="row1" id="backspace" type="button" onclick="onBackSpace()"><img src="bspace.png" alt="backspace" height="12" width="15"></button>
+            <button class="row1" id="divide" type="button" onclick="onDivision()"><b>/</b></button>
+        </div>
+        <div class="button-row2">
+            <button class="row2" id="seven" type="button" onclick="onSeven()"><b>7</b></button>
+            <button class="row2" id="eight" type="button" onclick="onEight()"><b>8</b></button>
+            <button class="row2" id="nine" type="button" onclick="onNine()"><b>9</b></button>
+            <button class="row2" id="multiply" type="button" onclick="onMultiply()"><b>*</b></button>
+        </div>
+        <div class="button-row3">
+            <button class="row3" id="four" type="button" onclick="onFour()"><b>4</b></button>
+            <button class="row3" id="five" type="button" onclick="onFive()"><b>5</b></button>
+            <button class="row3" id="six" type="button" onclick="onSix()"><b>6</b></button>
+            <button class="row3" id="subtraction" type="button" onclick="onSubtraction()"><b>-</b></button>
+        </div>
+        <div class="button-row4">
+            <button class="row4" id="one" type="button" onclick="onOne()"><b>1</b></button>
+            <button class="row4" id="two" type="button" onclick="onTwo()"><b>2</b></button>
+            <button class="row4" id="three" type="button" onclick="onThree()"><b>3</b></button>
+            <button class="row4" id="addition" type="button" onclick="onAddition()"><b>+</b></button>
+        </div>
+        <div class="button-row5">
+            <button class="row5" id="double-zero" type="button" onclick="onDoubleZero()"><b>00</b></button>
+            <button class="row5" id="zero" type="button" onclick="onZero()"><b>0</b></button>
+            <button class="row5" id="decimal" type="button" onclick="onDecimal()"><b>.</b></button>
+            <button class="row5" id="equals-to" type="button" onclick="onEqualsTo()"><b>=</b></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
